@@ -1,0 +1,71 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# dependencies
+**/node_modules/
+*/mobile-intro/node_modules/
+./mobile-intro/node_modules/
+
+# Expo
+**/.expo/
+*/mobile-intro/.expo/
+./mobile-intro/.expo/
+**/dist/
+*/mobile-intro/dist/
+./mobile-intro/dist/
+**/web-build/
+*/mobile-intro/web-build/
+./mobile-intro/web-build/
+
+# Native
+**/*.orig.*
+*/mobile-intro/*.orig.*
+./mobile-intro/*.orig.*
+**/*.jks
+*/mobile-intro/*.jks
+./mobile-intro/*.jks
+**/*.p8
+*/mobile-intro/*.p8
+./mobile-intro/*.p8
+**/*.p12
+*/mobile-intro/*.p12
+./mobile-intro/*.p12
+**/*.key
+*/mobile-intro/*.key
+./mobile-intro/*.key
+**/*.mobileprovision
+*/mobile-intro/*.mobileprovision
+./mobile-intro/*.mobileprovision
+
+# Metro
+**/.metro-health-check*
+*/mobile-intro/.metro-health-check*
+./mobile-intro/.metro-health-check*
+
+# debug
+**/npm-debug.*
+*/mobile-intro/npm-debug.*
+./mobile-intro/npm-debug.*
+**/yarn-debug.*
+*/mobile-intro/yarn-debug.*
+./mobile-intro/yarn-debug.*
+**/yarn-error.*
+*/mobile-intro/yarn-error.*
+./mobile-intro/yarn-error.*
+
+# macOS
+**/.DS_Store
+*/mobile-intro/.DS_Store
+./mobile-intro/.DS_Store
+**/*.pem
+*/mobile-intro/*.pem
+./mobile-intro/*.pem
+
+# local env files
+**/.env*.local
+*/mobile-intro/.env*.local
+./mobile-intro/.env*.local
+
+# typescript
+**/*.tsbuildinfo
+*/mobile-intro/*.tsbuildinfo
+./mobile-intro/*.tsbuildinfo
